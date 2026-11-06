@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile agent="WebXML converter" type="device" version="26.0.0" host="app.diagrams.net">
+  <diagram id="orarend-xdm" name="Órarend XDM">
+    <mxGraphModel fold="1" shadow="0" gridSize="10" pageHeight="1000" guides="1" arrows="1" page="1" tooltips="1" connect="1" dy="900" dx="1400" pageScale="1" math="0" pageWidth="1600" grid="1">
+      <root>
+        <mxCell id="0">
+        </mxCell>
+        <mxCell id="1" parent="0">
+        </mxCell>
+        <mxCell parent="1" id="root" vertex="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=15;" value="LRY9XW_orarend">
+          <mxGeometry height="60" width="210" as="geometry" y="330" x="40">
+          </mxGeometry>
+        </mxCell>
+        <mxCell parent="1" id="ora" vertex="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value="ora [0..*]&lt;br&gt;&lt;b&gt;@id&lt;/b&gt;&lt;br&gt;@típus">
+          <mxGeometry height="120" width="180" as="geometry" y="300" x="330">
+          </mxGeometry>
+        </mxCell>
+        <mxCell parent="1" id="kurzus" vertex="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" value="kurzusnev [1]">
+          <mxGeometry height="55" width="170" as="geometry" y="40" x="650">
+          </mxGeometry>
+        </mxCell>
+        <mxCell parent="1" id="idopont" vertex="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" value="idopont [1]">
+          <mxGeometry height="55" width="170" as="geometry" y="180" x="650">
+          </mxGeometry>
+        </mxCell>
+        <mxCell parent="1" id="nap" vertex="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" value="nap [1]">
+          <mxGeometry height="50" width="140" as="geometry" y="110" x="950">
+          </mxGeometry>
+        </mxCell>
+        <mxCell parent="1" id="tol" vertex="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" value="tol [1]">
+          <mxGeometry height="50" width="140" as="geometry" y="180" x="950">
+          </mxGeometry>
+        </mxCell>
+        <mxCell parent="1" id="ig" vertex="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" value="ig [1]">
+          <mxGeometry height="50" width="140" as="geometry" y="250" x="950">
+          </mxGeometry>
+        </mxCell>
+        <mxCell parent="1" id="helyszin" vertex="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" value="helyszin [1]">
+          <mxGeometry height="55" width="170" as="geometry" y="360" x="650">
+          </mxGeometry>
+        </mxCell>
+        <mxCell parent="1" id="oktato" vertex="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" value="oktato [1]">
+          <mxGeometry height="55" width="170" as="geometry" y="500" x="650">
+          </mxGeometry>
+        </mxCell>
+        <mxCell parent="1" id="szak" vertex="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" value="szak [1]">
+          <mxGeometry height="55" width="170" as="geometry" y="640" x="650">
+          </mxGeometry>
+        </mxCell>
+        <mxCell target="ora" id="e1" parent="1" value="" source="root" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;">
+          <mxGeometry as="geometry" relative="1">
+          </mxGeometry>
+        </mxCell>
+        <mxCell target="kurzus" id="e2" parent="1" value="" source="ora" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;">
+          <mxGeometry as="geometry" relative="1">
+          </mxGeometry>
+        </mxCell>
+        <mxCell target="idopont" id="e3" parent="1" value="" source="ora" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;">
+          <mxGeometry as="geometry" relative="1">
+          </mxGeometry>
+        </mxCell>
+        <mxCell target="nap" id="e4" parent="1" value="" source="idopont" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;">
+          <mxGeometry as="geometry" relative="1">
+          </mxGeometry>
+        </mxCell>
+        <mxCell target="tol" id="e5" parent="1" value="" source="idopont" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;">
+          <mxGeometry as="geometry" relative="1">
+          </mxGeometry>
+        </mxCell>
+        <mxCell target="ig" id="e6" parent="1" value="" source="idopont" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;">
+          <mxGeometry as="geometry" relative="1">
+          </mxGeometry>
+        </mxCell>
+        <mxCell target="helyszin" id="e7" parent="1" value="" source="ora" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;">
+          <mxGeometry as="geometry" relative="1">
+          </mxGeometry>
+        </mxCell>
+        <mxCell target="oktato" id="e8" parent="1" value="" source="ora" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;">
+          <mxGeometry as="geometry" relative="1">
+          </mxGeometry>
+        </mxCell>
+        <mxCell target="szak" id="e9" parent="1" value="" source="ora" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;">
+          <mxGeometry as="geometry" relative="1">
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

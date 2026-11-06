@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile agent="WebXML converter" type="device" version="26.0.0" host="app.diagrams.net">
+  <diagram id="vendeglatas-xdm" name="Vendéglátás XDM">
+    <mxGraphModel fold="1" shadow="0" gridSize="10" pageHeight="1000" guides="1" arrows="1" page="1" tooltips="1" connect="1" dy="900" dx="1400" pageScale="1" math="0" pageWidth="1600" grid="1">
+      <root>
+        <mxCell id="0">
+        </mxCell>
+        <mxCell id="1" parent="0">
+        </mxCell>
+        <mxCell parent="1" id="root" vertex="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=15;" value="LRY9XW_Vendeglatas">
+          <mxGeometry height="70" width="220" as="geometry" y="410" x="30">
+          </mxGeometry>
+        </mxCell>
+        <mxCell parent="1" id="ettermek" vertex="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" value="ettermek [1]">
+          <mxGeometry height="55" width="190" as="geometry" y="30" x="330">
+          </mxGeometry>
+        </mxCell>
+        <mxCell parent="1" id="etterem" vertex="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value="etterem [0..*]&lt;br&gt;&lt;b&gt;@id&lt;/b&gt;&lt;br&gt;nev&lt;br&gt;csillag&lt;br&gt;cim / varos, utca, hazszam">
+          <mxGeometry height="130" width="280" as="geometry" y="10" x="650">
+          </mxGeometry>
+        </mxCell>
+        <mxCell parent="1" id="foszakacsok" vertex="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" value="foszakacsok [1]">
+          <mxGeometry height="55" width="190" as="geometry" y="170" x="330">
+          </mxGeometry>
+        </mxCell>
+        <mxCell parent="1" id="foszakacs" vertex="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value="foszakacs [0..*]&lt;br&gt;&lt;b&gt;@id&lt;/b&gt;, @e_f → etterem&lt;br&gt;nev, kor&lt;br&gt;vegzettsegek / vegzettseg [0..*]">
+          <mxGeometry height="135" width="300" as="geometry" y="145" x="650">
+          </mxGeometry>
+        </mxCell>
+        <mxCell parent="1" id="szakacsok" vertex="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" value="szakacsok [1]">
+          <mxGeometry height="55" width="190" as="geometry" y="310" x="330">
+          </mxGeometry>
+        </mxCell>
+        <mxCell parent="1" id="szakacs" vertex="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value="szakacs [0..*]&lt;br&gt;&lt;b&gt;@id&lt;/b&gt;, @e_sz → etterem&lt;br&gt;nev, reszleg&lt;br&gt;vegzettsegek / vegzettseg [0..*]">
+          <mxGeometry height="135" width="300" as="geometry" y="285" x="650">
+          </mxGeometry>
+        </mxCell>
+        <mxCell parent="1" id="gyakornokok" vertex="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" value="gyakornokok [1]">
+          <mxGeometry height="55" width="190" as="geometry" y="450" x="330">
+          </mxGeometry>
+        </mxCell>
+        <mxCell parent="1" id="gyakornok" vertex="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value="gyakornok [0..*]&lt;br&gt;&lt;b&gt;@id&lt;/b&gt;, @e_gy → etterem&lt;br&gt;nev&lt;br&gt;gyakorlat / kezdete, idotartama&lt;br&gt;muszakok / muszak [0..*]">
+          <mxGeometry height="155" width="310" as="geometry" y="420" x="650">
+          </mxGeometry>
+        </mxCell>
+        <mxCell parent="1" id="vendegek" vertex="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" value="vendegek [1]">
+          <mxGeometry height="55" width="190" as="geometry" y="610" x="330">
+          </mxGeometry>
+        </mxCell>
+        <mxCell parent="1" id="vendeg" vertex="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value="vendeg [0..*]&lt;br&gt;&lt;b&gt;@id&lt;/b&gt;&lt;br&gt;nev, kor&lt;br&gt;cim / varos, utca, hazszam">
+          <mxGeometry height="130" width="280" as="geometry" y="590" x="650">
+          </mxGeometry>
+        </mxCell>
+        <mxCell parent="1" id="rendelesek" vertex="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" value="rendelesek [1]">
+          <mxGeometry height="55" width="190" as="geometry" y="760" x="330">
+          </mxGeometry>
+        </mxCell>
+        <mxCell parent="1" id="rendeles" vertex="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value="rendeles [0..*]&lt;br&gt;&lt;b&gt;@id&lt;/b&gt;&lt;br&gt;@etterem_ref → etterem&lt;br&gt;@vendeg_ref → vendeg&lt;br&gt;osszeg, etel">
+          <mxGeometry height="145" width="300" as="geometry" y="740" x="650">
+          </mxGeometry>
+        </mxCell>
+        <mxCell target="ettermek" id="h1" parent="1" value="" source="root" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;">
+          <mxGeometry as="geometry" relative="1">
+          </mxGeometry>
+        </mxCell>
+        <mxCell target="etterem" id="h2" parent="1" value="" source="ettermek" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;">
+          <mxGeometry as="geometry" relative="1">
+          </mxGeometry>
+        </mxCell>
+        <mxCell target="foszakacsok" id="h3" parent="1" value="" source="root" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;">
+          <mxGeometry as="geometry" relative="1">
+          </mxGeometry>
+        </mxCell>
+        <mxCell target="foszakacs" id="h4" parent="1" value="" source="foszakacsok" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;">
+          <mxGeometry as="geometry" relative="1">
+          </mxGeometry>
+        </mxCell>
+        <mxCell target="szakacsok" id="h5" parent="1" value="" source="root" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;">
+          <mxGeometry as="geometry" relative="1">
+          </mxGeometry>
+        </mxCell>
+        <mxCell target="szakacs" id="h6" parent="1" value="" source="szakacsok" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;">
+          <mxGeometry as="geometry" relative="1">
+          </mxGeometry>
+        </mxCell>
+        <mxCell target="gyakornokok" id="h7" parent="1" value="" source="root" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;">
+          <mxGeometry as="geometry" relative="1">
+          </mxGeometry>
+        </mxCell>
+        <mxCell target="gyakornok" id="h8" parent="1" value="" source="gyakornokok" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;">
+          <mxGeometry as="geometry" relative="1">
+          </mxGeometry>
+        </mxCell>
+        <mxCell target="vendegek" id="h9" parent="1" value="" source="root" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;">
+          <mxGeometry as="geometry" relative="1">
+          </mxGeometry>
+        </mxCell>
+        <mxCell target="vendeg" id="h10" parent="1" value="" source="vendegek" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;">
+          <mxGeometry as="geometry" relative="1">
+          </mxGeometry>
+        </mxCell>
+        <mxCell target="rendelesek" id="h11" parent="1" value="" source="root" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;">
+          <mxGeometry as="geometry" relative="1">
+          </mxGeometry>
+        </mxCell>
+        <mxCell target="rendeles" id="h12" parent="1" value="" source="rendelesek" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;">
+          <mxGeometry as="geometry" relative="1">
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

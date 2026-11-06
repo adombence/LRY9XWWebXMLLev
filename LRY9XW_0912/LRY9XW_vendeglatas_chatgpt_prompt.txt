@@ -1,0 +1,22 @@
+Feladat: a csatolt XDMLRY9XW.drawio diagrams.net modellből készíts egyetlen,
+UTF-8 kódolású, well-formed XML-dokumentumot `LRY9XW_XML.xml` néven.
+
+Kizárólag a csatolt modell legyen a szerkezeti forrás. Ne találj ki
+entitást, attribútumot, kulcsot, kapcsolatot vagy kardinalitást.
+A gyökérelem neve `LRY9XW_Vendeglatas` legyen.
+
+Kövesd a modellben szereplő pontos elem- és attribútumneveket. A kulcsok
+`id` attribútumok. Az `e_f`, `e_sz` és `e_gy` attribútumok létező
+`etterem` azonosítókra hivatkozzanak. A `rendeles` elem az N:M kapcsolat:
+`etterem_ref` és `vendeg_ref` hivatkozása legyen érvényes, az `osszeg` és
+`etel` kapcsolati adatként szerepeljen. Az összetett `cim` és `gyakorlat`
+attribútumokat beágyazott elemekkel, a többértékű `vegzettseg` és `muszak`
+attribútumokat ismételhető elemekkel reprezentáld.
+
+Legyen legalább három étterem, több vendég, szakács és gyakornok, valamint
+több rendelés. Tartalmazzon `vendeg id="v1"` példányt `nev` és `kor`
+elemmel, továbbá legalább egy `gyakornok` elemet `e_gy="e1"`
+attribútummal, hogy a későbbi DOM-feladat végrehajtható legyen.
+
+Ha a modell bármely része olvashatatlan vagy kétértelmű, ne dönts
+önkényesen: sorold fel a bizonytalan pontokat az XML után.

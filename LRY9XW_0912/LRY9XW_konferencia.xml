@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<konferencia>
+  <cím>Web és XML technológiák konferencia</cím>
+  <hallgatók>
+    <hallgató>
+      <név>Kovács Anna</név>
+      <lakcím>3525 Miskolc, Fő utca 12.</lakcím>
+    </hallgató>
+    <hallgató>
+      <név>Nagy Bence</név>
+      <lakcím>3530 Miskolc, Arany János tér 4.</lakcím>
+    </hallgató>
+    <hallgató>
+      <név>Szabó Lilla</név>
+      <lakcím>3515 Miskolc-Egyetemváros, Kollégium 2.</lakcím>
+    </hallgató>
+  </hallgatók>
+  <helyszín>Miskolci Egyetem, Informatikai Intézet</helyszín>
+  <előadó>
+    <név>Dr. Tóth Eszter</név>
+    <adószám>12345678-2-05</adószám>
+    <lakcím>3529 Miskolc, Csabai kapu 21.</lakcím>
+  </előadó>
+  <dátum>2026-11-20</dátum>
+</konferencia>
