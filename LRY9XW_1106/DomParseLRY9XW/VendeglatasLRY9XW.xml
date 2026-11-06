@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LRY9XW_Vendeglatas>
+  <ettermek>
+    <etterem id="e1">
+      <nev>Bukk Etterem</nev>
+      <csillag>4</csillag>
+      <cim>
+        <varos>Miskolc</varos>
+        <utca>Szechenyi utca</utca>
+        <hazszam>10</hazszam>
+      </cim>
+    </etterem>
+    <etterem id="e2">
+      <nev>Avas Bisztro</nev>
+      <csillag>3</csillag>
+      <cim>
+        <varos>Miskolc</varos>
+        <utca>Papszer</utca>
+        <hazszam>2</hazszam>
+      </cim>
+    </etterem>
+    <etterem id="e3">
+      <nev>Szinva Kert</nev>
+      <csillag>5</csillag>
+      <cim>
+        <varos>Miskolc</varos>
+        <utca>Szinva setany</utca>
+        <hazszam>7</hazszam>
+      </cim>
+    </etterem>
+  </ettermek>
+  <foszakacsok>
+    <foszakacs id="f1" e_f="e1">
+      <nev>Farkas Gabor</nev>
+      <kor>46</kor>
+      <vegzettsegek>
+        <vegzettseg>Sef szakkepesites</vegzettseg>
+        <vegzettseg>HACCP kepzes</vegzettseg>
+      </vegzettsegek>
+    </foszakacs>
+    <foszakacs id="f2" e_f="e2">
+      <nev>Molnar Julia</nev>
+      <kor>39</kor>
+      <vegzettsegek>
+        <vegzettseg>Vendeglato technikus</vegzettseg>
+      </vegzettsegek>
+    </foszakacs>
+    <foszakacs id="f3" e_f="e3">
+      <nev>Balogh Marton</nev>
+      <kor>44</kor>
+      <vegzettsegek>
+        <vegzettseg>Sef szakkepesites</vegzettseg>
+        <vegzettseg>Sommelier kepzes</vegzettseg>
+      </vegzettsegek>
+    </foszakacs>
+  </foszakacsok>
+  <szakacsok>
+    <szakacs id="sz1" e_sz="e1">
+      <nev>Kiss Dora</nev>
+      <reszleg>Melegkonyha</reszleg>
+      <vegzettsegek>
+        <vegzettseg>Szakacs</vegzettseg>
+        <vegzettseg>szakkozepiskola</vegzettseg>
+      </vegzettsegek>
+    </szakacs>
+    <szakacs id="sz2" e_sz="e1">
+      <nev>Varga Peter</nev>
+      <reszleg>Cukraszat</reszleg>
+      <vegzettsegek>
+        <vegzettseg>Cukrasz</vegzettseg>
+        <vegzettseg>Szakacs</vegzettseg>
+      </vegzettsegek>
+    </szakacs>
+    <szakacs id="sz3" e_sz="e2">
+      <nev>Olah Reka</nev>
+      <reszleg>Hidegkonyha</reszleg>
+      <vegzettsegek>
+        <vegzettseg>Szakacs</vegzettseg>
+      </vegzettsegek>
+    </szakacs>
+    <szakacs id="sz4" e_sz="e3">
+      <nev>Toth Akos</nev>
+      <reszleg>Grill</reszleg>
+      <vegzettsegek>
+        <vegzettseg>Vendeglato technikus</vegzettseg>
+      </vegzettsegek>
+    </szakacs>
+  </szakacsok>
+  <gyakornokok>
+    <gyakornok id="gy1" e_gy="e1">
+      <nev>Horvath Emma</nev>
+      <gyakorlat>
+        <kezdete>2026-09-01</kezdete>
+        <idotartama>12 het</idotartama>
+      </gyakorlat>
+      <muszakok>
+        <muszak>delelott</muszak>
+        <muszak>hetvege</muszak>
+      </muszakok>
+    </gyakornok>
+    <gyakornok id="gy2" e_gy="e2">
+      <nev>Kerekes Levente</nev>
+      <gyakorlat>
+        <kezdete>2026-09-15</kezdete>
+        <idotartama>10 het</idotartama>
+      </gyakorlat>
+      <muszakok>
+        <muszak>delutan</muszak>
+      </muszakok>
+    </gyakornok>
+    <gyakornok id="gy3" e_gy="e3">
+      <nev>Lakatos Nora</nev>
+      <gyakorlat>
+        <kezdete>2026-10-01</kezdete>
+        <idotartama>8 het</idotartama>
+      </gyakorlat>
+      <muszakok>
+        <muszak>delelott</muszak>
+        <muszak>delutan</muszak>
+      </muszakok>
+    </gyakornok>
+  </gyakornokok>
+  <vendegek>
+    <vendeg id="v1">
+      <nev>Biro Agnes</nev>
+      <kor>32</kor>
+      <cim>
+        <varos>Miskolc</varos>
+        <utca>Kiraly utca</utca>
+        <hazszam>5</hazszam>
+      </cim>
+    </vendeg>
+    <vendeg id="v2">
+      <nev>Papp Tamas</nev>
+      <kor>41</kor>
+      <cim>
+        <varos>Kazincbarcika</varos>
+        <utca>Egressy ut</utca>
+        <hazszam>18</hazszam>
+      </cim>
+    </vendeg>
+    <vendeg id="v3">
+      <nev>Sipos Zoltan</nev>
+      <kor>27</kor>
+      <cim>
+        <varos>Eger</varos>
+        <utca>Dobo ter</utca>
+        <hazszam>3</hazszam>
+      </cim>
+    </vendeg>
+  </vendegek>
+  <rendelesek>
+    <rendeles vendeg_ref="v1" etterem_ref="e1" id="r1">
+      <osszeg>18900</osszeg>
+      <etel>Szarvasragu dodollevel</etel>
+    </rendeles>
+    <rendeles vendeg_ref="v2" etterem_ref="e1" id="r2">
+      <osszeg>12400</osszeg>
+      <etel>Pisztrang sult zoldsegekkel</etel>
+    </rendeles>
+    <rendeles vendeg_ref="v1" etterem_ref="e2" id="r3">
+      <osszeg>7900</osszeg>
+      <etel>Gombapaprikas</etel>
+    </rendeles>
+    <rendeles vendeg_ref="v3" etterem_ref="e3" id="r4">
+      <osszeg>15500</osszeg>
+      <etel>Belszin steak</etel>
+    </rendeles>
+    <rendeles vendeg_ref="v2" etterem_ref="e3" id="r5">
+      <osszeg>6800</osszeg>
+      <etel>Makos guba</etel>
+    </rendeles>
+  </rendelesek>
+</LRY9XW_Vendeglatas>

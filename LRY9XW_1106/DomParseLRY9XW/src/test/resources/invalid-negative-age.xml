@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LRY9XW_Vendeglatas>
+  <ettermek/>
+  <foszakacsok/>
+  <szakacsok/>
+  <gyakornokok/>
+  <vendegek>
+    <vendeg id="v1">
+      <nev>Hibás Korú Vendég</nev>
+      <kor>-1</kor>
+      <cim>
+        <varos>Miskolc</varos>
+        <utca>Teszt utca</utca>
+        <hazszam>1</hazszam>
+      </cim>
+    </vendeg>
+  </vendegek>
+  <rendelesek/>
+</LRY9XW_Vendeglatas>
