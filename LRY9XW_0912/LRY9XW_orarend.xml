@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LRY9XW_orarend>
-  <ora id="ora-1" típus="">
+  <ora id="ora-1" típus="előadás">
     <kurzusnev>Multimédia rendszerek (GEVAU242-BL2)</kurzusnev>
     <idopont>
       <nap>2026-09-11</nap>
@@ -11,7 +11,7 @@
     <oktato>Dr. Varga Attila Károly</oktato>
     <szak>Mérnökinformatikus (BSc)</szak>
   </ora>
-  <ora id="ora-2" típus="">
+  <ora id="ora-2" típus="előadás">
     <kurzusnev>Matematikai analízis I (GEMAN151-BL2)</kurzusnev>
     <idopont>
       <nap>2026-09-11</nap>
@@ -22,7 +22,7 @@
     <oktato>Dr. Veres Laura</oktato>
     <szak>Mérnökinformatikus (BSc)</szak>
   </ora>
-  <ora id="ora-3" típus="">
+  <ora id="ora-3" típus="előadás">
     <kurzusnev>Webes adatkezelő környezetek (GEIAL32K-BL2)</kurzusnev>
     <idopont>
       <nap>2026-09-12</nap>
@@ -33,7 +33,7 @@
     <oktato>Dr. Bednarik László</oktato>
     <szak>Mérnökinformatikus (BSc)</szak>
   </ora>
-  <ora id="ora-4" típus="">
+  <ora id="ora-4" típus="előadás">
     <kurzusnev>Lineáris algebra és diszkrét mat. (GEMAN102-BL2)</kurzusnev>
     <idopont>
       <nap>2026-09-19</nap>
@@ -44,7 +44,7 @@
     <oktato>Dr. Pongrácz András</oktato>
     <szak>Mérnökinformatikus (BSc)</szak>
   </ora>
-  <ora id="ora-5" típus="">
+  <ora id="ora-5" típus="előadás">
     <kurzusnev>Multimédia rendszerek (GEVAU242-BL2)</kurzusnev>
     <idopont>
       <nap>2026-09-19</nap>
@@ -55,7 +55,7 @@
     <oktato>Dr. Varga Attila Károly</oktato>
     <szak>Mérnökinformatikus (BSc)</szak>
   </ora>
-  <ora id="ora-6" típus="">
+  <ora id="ora-6" típus="előadás">
     <kurzusnev>Matematikai analízis I (GEMAN151-BL2)</kurzusnev>
     <idopont>
       <nap>2026-10-02</nap>
@@ -66,7 +66,7 @@
     <oktato>Dr. Veres Laura</oktato>
     <szak>Mérnökinformatikus (BSc)</szak>
   </ora>
-  <ora id="ora-7" típus="">
+  <ora id="ora-7" típus="előadás">
     <kurzusnev>Webes adatkezelő környezetek (GEIAL32K-BL2)</kurzusnev>
     <idopont>
       <nap>2026-10-16</nap>
@@ -77,7 +77,7 @@
     <oktato>Dr. Bednarik László</oktato>
     <szak>Mérnökinformatikus (BSc)</szak>
   </ora>
-  <ora id="ora-8" típus="">
+  <ora id="ora-8" típus="előadás">
     <kurzusnev>Matematikai analízis I (GEMAN151-BL2)</kurzusnev>
     <idopont>
       <nap>2026-10-16</nap>
@@ -88,7 +88,7 @@
     <oktato>Dr. Veres Laura</oktato>
     <szak>Mérnökinformatikus (BSc)</szak>
   </ora>
-  <ora id="ora-9" típus="">
+  <ora id="ora-9" típus="előadás">
     <kurzusnev>Lineáris algebra és diszkrét mat. (GEMAN102-BL2)</kurzusnev>
     <idopont>
       <nap>2026-10-17</nap>
@@ -99,7 +99,7 @@
     <oktato>Dr. Pongrácz András</oktato>
     <szak>Mérnökinformatikus (BSc)</szak>
   </ora>
-  <ora id="ora-10" típus="">
+  <ora id="ora-10" típus="előadás">
     <kurzusnev>Lineáris algebra és diszkrét mat. (GEMAN102-BL2)</kurzusnev>
     <idopont>
       <nap>2026-10-31</nap>
@@ -110,7 +110,7 @@
     <oktato>Dr. Pongrácz András</oktato>
     <szak>Mérnökinformatikus (BSc)</szak>
   </ora>
-  <ora id="ora-11" típus="">
+  <ora id="ora-11" típus="előadás">
     <kurzusnev>Webes adatkezelő környezetek (GEIAL32K-BL2)</kurzusnev>
     <idopont>
       <nap>2026-11-06</nap>
@@ -121,7 +121,7 @@
     <oktato>Dr. Bednarik László</oktato>
     <szak>Mérnökinformatikus (BSc)</szak>
   </ora>
-  <ora id="ora-12" típus="">
+  <ora id="ora-12" típus="előadás">
     <kurzusnev>Matematikai analízis I (GEMAN151-BL2)</kurzusnev>
     <idopont>
       <nap>2026-11-13</nap>
@@ -132,7 +132,7 @@
     <oktato>Dr. Veres Laura</oktato>
     <szak>Mérnökinformatikus (BSc)</szak>
   </ora>
-  <ora id="ora-13" típus="">
+  <ora id="ora-13" típus="előadás">
     <kurzusnev>Mobil programozási alapok (GEIAL335-BL2)</kurzusnev>
     <idopont>
       <nap>2026-11-14</nap>
@@ -143,7 +143,7 @@
     <oktato>Agárdi Anita</oktato>
     <szak>Mérnökinformatikus (BSc)</szak>
   </ora>
-  <ora id="ora-14" típus="">
+  <ora id="ora-14" típus="előadás">
     <kurzusnev>Multimédia rendszerek (GEVAU242-BL2)</kurzusnev>
     <idopont>
       <nap>2026-11-20</nap>
@@ -154,7 +154,7 @@
     <oktato>Dr. Varga Attila Károly</oktato>
     <szak>Mérnökinformatikus (BSc)</szak>
   </ora>
-  <ora id="ora-15" típus="">
+  <ora id="ora-15" típus="előadás">
     <kurzusnev>Lineáris algebra és diszkrét mat. (GEMAN102-BL2)</kurzusnev>
     <idopont>
       <nap>2026-11-20</nap>
@@ -165,7 +165,7 @@
     <oktato>Dr. Pongrácz András</oktato>
     <szak>Mérnökinformatikus (BSc)</szak>
   </ora>
-  <ora id="ora-16" típus="">
+  <ora id="ora-16" típus="előadás">
     <kurzusnev>Multimédia rendszerek (GEVAU242-BL2)</kurzusnev>
     <idopont>
       <nap>2026-11-27</nap>
@@ -176,7 +176,7 @@
     <oktato>Dr. Varga Attila Károly</oktato>
     <szak>Mérnökinformatikus (BSc)</szak>
   </ora>
-  <ora id="ora-17" típus="">
+  <ora id="ora-17" típus="előadás">
     <kurzusnev>Lineáris algebra és diszkrét mat. (GEMAN102-BL2)</kurzusnev>
     <idopont>
       <nap>2026-11-27</nap>
@@ -187,7 +187,7 @@
     <oktato>Dr. Pongrácz András</oktato>
     <szak>Mérnökinformatikus (BSc)</szak>
   </ora>
-  <ora id="ora-18" típus="">
+  <ora id="ora-18" típus="előadás">
     <kurzusnev>Webes adatkezelő környezetek (GEIAL32K-BL2)</kurzusnev>
     <idopont>
       <nap>2026-12-04</nap>
@@ -198,7 +198,7 @@
     <oktato>Dr. Bednarik László</oktato>
     <szak>Mérnökinformatikus (BSc)</szak>
   </ora>
-  <ora id="ora-19" típus="">
+  <ora id="ora-19" típus="előadás">
     <kurzusnev>Mobil programozási alapok (GEIAL335-BL2)</kurzusnev>
     <idopont>
       <nap>2026-12-11</nap>
@@ -209,7 +209,7 @@
     <oktato>Agárdi Anita</oktato>
     <szak>Mérnökinformatikus (BSc)</szak>
   </ora>
-  <ora id="ora-20" típus="">
+  <ora id="ora-20" típus="előadás">
     <kurzusnev>Matematikai analízis I (GEMAN151-BL2)</kurzusnev>
     <idopont>
       <nap>2026-12-11</nap>

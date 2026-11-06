@@ -19,7 +19,8 @@
 
 - Az eredeti ICS nem része a beadandó mappának és nincs verziókezelésbe véve.
 - A Slot `DESCRIPTION` mezője ebben az exportban kizárólag oktatónevet
-  tartalmaz. Az óratípus ezért üres, nem kitalált érték.
+  tartalmaz. A levelező képzés órái a beadandóban egységesen
+  `előadás` típussal szerepelnek a hallgatói döntés alapján.
 - Az időpontok UTC-ből `Europe/Budapest` időzónára alakítva szerepelnek.
 - A `nap` ISO-dátum, így a teljes félév minden konzultációja egyértelműen
   reprezentálható.
