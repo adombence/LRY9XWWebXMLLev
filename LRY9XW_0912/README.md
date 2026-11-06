@@ -1,8 +1,8 @@
 # WebXML - 1. konzultáció
 
-- Hallgató: KITÖLTENDŐ TELJES NÉV
+- Hallgató: Ádom Bence
 - Neptun-kód: `LRY9XW`
-- Szak: KITÖLTENDŐ SZAK
+- Szak: Mérnökinformatikus (BSc)
 
 ## Fájlok
 
@@ -50,6 +50,6 @@ java -jar target/webxml-converter-1.0-SNAPSHOT.jar \
   /abszolut/utvonal/orarend.ics \
   /kimeneti/szulo/mappa \
   LRY9XW \
-  "KITÖLTENDŐ TELJES NÉV" \
-  "KITÖLTENDŐ SZAK"
+  "Ádom Bence" \
+  "Mérnökinformatikus (BSc)"
 ```
