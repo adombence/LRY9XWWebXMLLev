@@ -14,8 +14,6 @@ viszi tovább.
   XML Schema.
 - `DomParseLRY9XW/`: Java 21 Maven-projekt a két DOM-alkalmazással és
   JUnit-tesztekkel.
-- `VALIDALAS.md`: a tényleges validálási és buildparancsok eredménye.
-- `MEGFELELOSEG.md`: követelményenkénti megfelelőségi jelentés.
 
 ## Fájlnév-egységesítés
 
