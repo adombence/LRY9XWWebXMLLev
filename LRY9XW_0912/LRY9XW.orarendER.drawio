@@ -1,63 +1,203 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mxfile agent="WebXML converter" type="device" version="26.0.0" host="app.diagrams.net">
+<mxfile agent="Codex WebXML model correction"
+        host="app.diagrams.net"
+        type="device"
+        version="26.0.0">
   <diagram id="orarend-er" name="Órarend ER">
-    <mxGraphModel fold="1" shadow="0" gridSize="10" pageHeight="1000" guides="1" arrows="1" page="1" tooltips="1" connect="1" dy="900" dx="1400" pageScale="1" math="0" pageWidth="1600" grid="1">
+    <mxGraphModel dx="1200"
+                  dy="900"
+                  grid="1"
+                  gridSize="10"
+                  guides="1"
+                  tooltips="1"
+                  connect="1"
+                  arrows="1"
+                  fold="1"
+                  page="1"
+                  pageScale="1"
+                  pageWidth="1200"
+                  pageHeight="900"
+                  math="0"
+                  shadow="0">
       <root>
-        <mxCell id="0">
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <mxCell id="title"
+                parent="1"
+                vertex="1"
+                value="Órarend – egyszerűsített ER-modell"
+                style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;">
+          <mxGeometry x="360" y="20" width="480" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="1" parent="0">
+
+        <mxCell id="ora"
+                parent="1"
+                vertex="1"
+                value="ÓRA"
+                style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontStyle=1;fontSize=18;">
+          <mxGeometry x="510" y="330" width="200" height="90" as="geometry"/>
         </mxCell>
-        <mxCell parent="1" id="orarend" vertex="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" value="ÓRAREND&lt;br&gt;&lt;i&gt;gyökérelem neve&lt;/i&gt;">
-          <mxGeometry height="80" width="190" as="geometry" y="330" x="40">
-          </mxGeometry>
+
+        <mxCell id="attr-id"
+                parent="1"
+                vertex="1"
+                value="&lt;u&gt;id&lt;/u&gt;"
+                style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=15;">
+          <mxGeometry x="60" y="100" width="150" height="70" as="geometry"/>
         </mxCell>
-        <mxCell parent="1" id="ora" vertex="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" value="ÓRA&lt;br&gt;&lt;u&gt;id&lt;/u&gt;&lt;br&gt;típus">
-          <mxGeometry height="110" width="180" as="geometry" y="300" x="390">
-          </mxGeometry>
+
+        <mxCell id="attr-tipus"
+                parent="1"
+                vertex="1"
+                value="típus"
+                style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=15;">
+          <mxGeometry x="285" y="80" width="160" height="70" as="geometry"/>
         </mxCell>
-        <mxCell parent="1" id="idopont" vertex="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" value="IDŐPONT&lt;br&gt;nap&lt;br&gt;tol&lt;br&gt;ig">
-          <mxGeometry height="110" width="180" as="geometry" y="300" x="790">
-          </mxGeometry>
+
+        <mxCell id="attr-kurzusnev"
+                parent="1"
+                vertex="1"
+                value="kurzusnev"
+                style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=15;">
+          <mxGeometry x="520" y="70" width="190" height="70" as="geometry"/>
         </mxCell>
-        <mxCell parent="1" id="kurzus" vertex="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" value="KURZUS&lt;br&gt;kurzusnev">
-          <mxGeometry height="80" width="180" as="geometry" y="40" x="390">
-          </mxGeometry>
+
+        <mxCell id="attr-helyszin"
+                parent="1"
+                vertex="1"
+                value="helyszin"
+                style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=15;">
+          <mxGeometry x="800" y="100" width="170" height="70" as="geometry"/>
         </mxCell>
-        <mxCell parent="1" id="helyszin" vertex="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" value="HELYSZÍN&lt;br&gt;helyszin">
-          <mxGeometry height="80" width="180" as="geometry" y="560" x="390">
-          </mxGeometry>
+
+        <mxCell id="attr-oktato"
+                parent="1"
+                vertex="1"
+                value="oktato"
+                style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=15;">
+          <mxGeometry x="940" y="300" width="170" height="70" as="geometry"/>
         </mxCell>
-        <mxCell parent="1" id="oktato" vertex="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" value="OKTATÓ&lt;br&gt;oktato">
-          <mxGeometry height="80" width="180" as="geometry" y="500" x="790">
-          </mxGeometry>
+
+        <mxCell id="attr-szak"
+                parent="1"
+                vertex="1"
+                value="szak"
+                style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=15;">
+          <mxGeometry x="830" y="500" width="170" height="70" as="geometry"/>
         </mxCell>
-        <mxCell parent="1" id="szak" vertex="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" value="SZAK&lt;br&gt;szak">
-          <mxGeometry height="80" width="180" as="geometry" y="80" x="790">
-          </mxGeometry>
+
+        <mxCell id="attr-idopont"
+                parent="1"
+                vertex="1"
+                value="időpont"
+                style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;fontStyle=1;fontSize=15;">
+          <mxGeometry x="430" y="540" width="190" height="80" as="geometry"/>
         </mxCell>
-        <mxCell target="ora" id="r1" parent="1" value="1 : N  tartalmaz" source="orarend" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;">
-          <mxGeometry as="geometry" relative="1">
-          </mxGeometry>
+
+        <mxCell id="attr-nap"
+                parent="1"
+                vertex="1"
+                value="nap"
+                style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=14;">
+          <mxGeometry x="170" y="720" width="150" height="65" as="geometry"/>
         </mxCell>
-        <mxCell target="idopont" id="r2" parent="1" value="1 : 1  időpontja" source="ora" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;">
-          <mxGeometry as="geometry" relative="1">
-          </mxGeometry>
+
+        <mxCell id="attr-tol"
+                parent="1"
+                vertex="1"
+                value="tol"
+                style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=14;">
+          <mxGeometry x="400" y="740" width="150" height="65" as="geometry"/>
         </mxCell>
-        <mxCell target="kurzus" id="r3" parent="1" value="N : 1  kurzusa" source="ora" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;">
-          <mxGeometry as="geometry" relative="1">
-          </mxGeometry>
+
+        <mxCell id="attr-ig"
+                parent="1"
+                vertex="1"
+                value="ig"
+                style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=14;">
+          <mxGeometry x="640" y="720" width="150" height="65" as="geometry"/>
         </mxCell>
-        <mxCell target="helyszin" id="r4" parent="1" value="N : 1  helyszíne" source="ora" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;">
-          <mxGeometry as="geometry" relative="1">
-          </mxGeometry>
+
+        <mxCell id="edge-id"
+                parent="1"
+                source="ora"
+                target="attr-id"
+                edge="1"
+                style="endArrow=none;startArrow=none;html=1;rounded=0;strokeWidth=1.5;">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell target="oktato" id="r5" parent="1" value="N : 1  oktatója" source="ora" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;">
-          <mxGeometry as="geometry" relative="1">
-          </mxGeometry>
+        <mxCell id="edge-tipus"
+                parent="1"
+                source="ora"
+                target="attr-tipus"
+                edge="1"
+                style="endArrow=none;startArrow=none;html=1;rounded=0;strokeWidth=1.5;">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell target="szak" id="r6" parent="1" value="N : 1  szakhoz tartozik" source="ora" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;">
-          <mxGeometry as="geometry" relative="1">
-          </mxGeometry>
+        <mxCell id="edge-kurzusnev"
+                parent="1"
+                source="ora"
+                target="attr-kurzusnev"
+                edge="1"
+                style="endArrow=none;startArrow=none;html=1;rounded=0;strokeWidth=1.5;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge-helyszin"
+                parent="1"
+                source="ora"
+                target="attr-helyszin"
+                edge="1"
+                style="endArrow=none;startArrow=none;html=1;rounded=0;strokeWidth=1.5;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge-oktato"
+                parent="1"
+                source="ora"
+                target="attr-oktato"
+                edge="1"
+                style="endArrow=none;startArrow=none;html=1;rounded=0;strokeWidth=1.5;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge-szak"
+                parent="1"
+                source="ora"
+                target="attr-szak"
+                edge="1"
+                style="endArrow=none;startArrow=none;html=1;rounded=0;strokeWidth=1.5;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge-idopont"
+                parent="1"
+                source="ora"
+                target="attr-idopont"
+                edge="1"
+                style="endArrow=none;startArrow=none;html=1;rounded=0;strokeWidth=1.5;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge-nap"
+                parent="1"
+                source="attr-idopont"
+                target="attr-nap"
+                edge="1"
+                style="endArrow=none;startArrow=none;html=1;rounded=0;strokeWidth=1.5;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge-tol"
+                parent="1"
+                source="attr-idopont"
+                target="attr-tol"
+                edge="1"
+                style="endArrow=none;startArrow=none;html=1;rounded=0;strokeWidth=1.5;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge-ig"
+                parent="1"
+                source="attr-idopont"
+                target="attr-ig"
+                edge="1"
+                style="endArrow=none;startArrow=none;html=1;rounded=0;strokeWidth=1.5;">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
